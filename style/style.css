@@ -316,6 +316,14 @@ body {
   width: 100%;
 }
 
+.supportedBy .groupsponsors {
+  margin-bottom: 15px;
+}
+
+.supportedBy .groupsponsors img {
+  width: 100%;
+}
+
 .feenOverview {
   padding-bottom: 15px;
 }
