@@ -9,6 +9,17 @@ $secondaryFont: 'Lexend', sans-serif;
 body {
     font-family: 'Urbanist', sans-serif;
 }
+.image-container {
+    width: 100%;
+    background: #fff;
+    height: 155px;
+    display: flex;
+    img {
+        width: auto!important;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+}
 .button_container {
     margin-left: 50px;
     a {
@@ -115,7 +126,8 @@ body {
                 background-color: $secondaryText;
                 border-radius: 0px 15px 15px 0px;
                 align-items: center;
-                padding-left: 10px;            
+                padding-left: 10px;  
+                width: 45%;          
             }
             .vanue_map {
                 background-color: $secondaryText;
@@ -124,6 +136,7 @@ body {
                 border-radius: 0px 15px 15px 0px;
                 align-items: center;
                 padding-left: 10px;  
+                width: 45%;
             }
         }
         .title_sponsor {
@@ -217,6 +230,8 @@ body {
             img {
                 background: $lightText;
                 padding: 1em;
+                width: auto;
+                margin: auto;
             }
         }
     }
@@ -329,10 +344,12 @@ body {
                 margin-bottom: 30px;
                 flex-wrap: wrap;
                 .vanue_calander {
-                    margin-bottom: 15px;          
+                    margin-bottom: 15px; 
+                    width: 100%;         
                 }
                 .vanue_map {
                     margin-left: 0px;
+                    width: 100%;
                 }
             }
         }
