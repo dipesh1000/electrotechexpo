@@ -6,7 +6,9 @@ $(document).ready(function () {
     margin: 20,
     dots: false,
     nav: false,
-    autoplayTimeout: 5000,
+    autoplayTimeout: 4000,
+    loop: true,
+    autoplay: true,
     smartSpeed: 5000,
     responsive: {
       0: {
@@ -30,6 +32,8 @@ $(document).ready(function () {
     margin: 20,
     dots: false,
     nav: false,
+    autoplay: true,
+    loop: true,
     autoplayTimeout: 5000,
     items: 4,
     smartSpeed: 5000,
@@ -56,6 +60,7 @@ $(document).ready(function () {
     dots: false,
     nav: false,
     autoplayTimeout: 5000,
+    autoplay: true,
     items: 9,
     smartSpeed: 5000,
     responsive: {
