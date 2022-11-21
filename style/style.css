@@ -1,0 +1,396 @@
+body {
+  font-family: 'Urbanist', sans-serif;
+}
+
+.button_container {
+  margin-left: 50px;
+}
+
+.button_container a {
+  border: 1px solid #F21A25;
+  color: #F21A25;
+  padding: 8px 16px;
+  text-decoration: none;
+  border-radius: 20px;
+  font-size: 500;
+  font-size: 16px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.button_container a:hover {
+  color: #ffffff;
+  border: 1px solid #F21A25;
+  background: #F21A25;
+}
+
+.header .navbar {
+  padding: 16px 0;
+}
+
+.header .navbar .navbar-brand {
+  padding: 0;
+}
+
+.header .navbar .navbar-nav .nav-item .nav-link {
+  color: #163849;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  padding: 0 16px;
+}
+
+.banner img {
+  width: 100%;
+}
+
+.feen_about {
+  padding-bottom: 30px;
+}
+
+.feen_about .about_content_box {
+  padding: 60px 0 40px 0;
+}
+
+.feen_about .about_content_box .main_title {
+  margin-bottom: 10px;
+}
+
+.feen_about .about_content_box .main_title h2 {
+  font-family: "Lexend", sans-serif;
+  color: #000000;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  font-size: 40px;
+  line-height: 50px;
+}
+
+.feen_about .about_content_box .main_title span {
+  font-style: normal;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: rgba(0, 0, 0, 0.75);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.feen_about .about_content_box .sec_title h2 {
+  font-family: "Lexend", sans-serif;
+  letter-spacing: 0.02em;
+  color: #F21A25;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 110%;
+}
+
+.feen_about .about_content_box .sec_title h2 span {
+  color: #163849;
+}
+
+.feen_about .about_content_box .venue_box {
+  padding: 15px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 30px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.feen_about .about_content_box .venue_box span {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  display: inline;
+  color: #fff;
+  padding: 6px 6px 6px 20px;
+}
+
+.feen_about .about_content_box .venue_box img {
+  width: 45px;
+  height: 45px;
+}
+
+.feen_about .about_content_box .venue_box .vanue_calander {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #F21A25;
+  border-radius: 0px 15px 15px 0px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 10px;
+}
+
+.feen_about .about_content_box .venue_box .vanue_map {
+  background-color: #F21A25;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 30px;
+  border-radius: 0px 15px 15px 0px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 10px;
+}
+
+.feen_about .about_content_box .title_sponsor {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.feen_about .about_content_box .title_sponsor img {
+  padding-left: 25px;
+}
+
+.feen_about .about_content_box .title_sponsor h6 {
+  letter-spacing: 0.02em;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.feen_about .booking_box {
+  margin-top: -30px;
+  padding: 32px;
+  background: #FFFFFF;
+  -webkit-box-shadow: 33px 52px 25px rgba(0, 0, 0, 0.01), 18px 29px 21px rgba(0, 0, 0, 0.05), 8px 13px 15px rgba(0, 0, 0, 0.09), 2px 3px 8px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+          box-shadow: 33px 52px 25px rgba(0, 0, 0, 0.01), 18px 29px 21px rgba(0, 0, 0, 0.05), 8px 13px 15px rgba(0, 0, 0, 0.09), 2px 3px 8px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+}
+
+.feen_about .booking_box .booking_title {
+  padding-bottom: 16px;
+}
+
+.feen_about .booking_box .booking_title img {
+  padding-bottom: 16px;
+  width: 100%;
+}
+
+.feen_about .booking_box .booking_title h2 {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38px;
+  letter-spacing: 0.02em;
+  color: #2C2738;
+}
+
+.feen_about .booking_box .booking_title span {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: 0.02em;
+  color: #2C2738;
+}
+
+.feen_about .booking_box .form-label {
+  color: #756F86;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.02em;
+}
+
+.feen_about .booking_box .form-check-label {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.02em;
+  color: #756F86;
+}
+
+.feen_about .booking_box .btn-primary {
+  background-color: #163849;
+  border: 1px solid #163849;
+  display: block;
+  width: 100%;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  padding: 17px;
+}
+
+.main_sponsor {
+  background-color: #163849;
+  padding: 2em 0;
+}
+
+.main_sponsor .sponser_slider .sponsor h4 {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  margin-bottom: 14px;
+}
+
+.main_sponsor .sponser_slider .sponsor img {
+  background: #ffffff;
+  padding: 1em;
+}
+
+.gold_sponsor {
+  padding: 2em 0;
+}
+
+.gold_sponsor .gold_title {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.gold_sponsor .gold_title h4 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.gold_sponsor .gold_slider .sponsor {
+  border: 1px solid #ddd;
+  padding: 1em;
+}
+
+.supportedBy .support_title {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.supportedBy .support_title h4 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.supportedBy .supported_by {
+  list-style: none;
+  padding-left: 0;
+}
+
+.supportedBy .supported_by li img {
+  width: 100%;
+}
+
+.feenOverview {
+  padding-bottom: 15px;
+}
+
+.feenOverview img {
+  width: 100%;
+}
+
+.feen_footer h2 {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 28px;
+  letter-spacing: 0.02em;
+  color: #334C83;
+}
+
+.feen_footer .button_footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.feen_footer .button_footer .dir {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.feen_footer .button_footer .dir .direction {
+  padding-left: 60px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.feen_footer .button_footer .dir .direction:first-child {
+  padding-left: 0px;
+}
+
+.feen_footer .social_media {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  list-style: none;
+}
+
+.feen_footer .social_media li {
+  font-size: 30px;
+  padding-left: 15px;
+}
+
+.feen_footer .social_media li a {
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 800px) {
+  .feen_about .about_content_box .venue_box {
+    padding: 15px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 30px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .feen_about .about_content_box .venue_box .vanue_calander {
+    margin-bottom: 15px;
+  }
+  .feen_about .about_content_box .venue_box .vanue_map {
+    margin-left: 0px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .feen_footer .button_footer .dir .direction {
+    padding-left: 0px;
+    line-height: 35px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
