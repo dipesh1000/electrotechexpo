@@ -9,6 +9,7 @@ $(document).ready(function () {
     autoplayTimeout: 4000,
     loop: true,
     autoplay: true,
+    autoplayHoverPause: true,
     smartSpeed: 5000,
     responsive: {
       0: {
@@ -35,6 +36,7 @@ $(document).ready(function () {
     autoplay: true,
     loop: true,
     autoplayTimeout: 5000,
+    autoplayHoverPause: true,
     items: 4,
     smartSpeed: 5000,
     responsive: {
@@ -60,6 +62,7 @@ $(document).ready(function () {
     dots: false,
     nav: false,
     autoplayTimeout: 5000,
+    autoplayHoverPause: true,
     autoplay: true,
     items: 9,
     smartSpeed: 5000,
